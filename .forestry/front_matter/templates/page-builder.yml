@@ -32,7 +32,3 @@ fields:
   - signup-bar
   - simple-footer
   - 4-column-footer
-pages:
-- _posts/2019-02-08-first-post.md
-- main.md
-- index.md
