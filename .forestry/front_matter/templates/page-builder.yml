@@ -33,6 +33,6 @@ fields:
   - simple-footer
   - 4-column-footer
 pages:
-- _posts/first-post.md
+- _posts/2019-02-08-first-post.md
 - main.md
 - index.md
