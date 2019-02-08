@@ -14,6 +14,11 @@ page_sections:
   block: hero-2
   headline: Brandon's Tech Learning
   content: Blog to document what I learned.
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+- template: detail-content
+  block: text-1
 - template: simple-footer
   block: footer-1
 published: false
