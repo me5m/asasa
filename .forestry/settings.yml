@@ -7,7 +7,6 @@ sections:
 - type: jekyll-posts
   label: Blog
   create: all
-  match: "**/*"
   templates:
   - simple-footer
   - detail-content
@@ -15,7 +14,6 @@ sections:
 - type: jekyll-pages
   label: JK_Pages
   create: all
-  match: "**/*"
   templates:
   - simple-footer
   - detail-content
