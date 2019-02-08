@@ -3,7 +3,23 @@ new_page_extension: md
 auto_deploy: true
 admin_path: ''
 webhook_url: 
-sections: 
+sections:
+- type: jekyll-posts
+  label: Blog
+  create: all
+  match: "**/*"
+  templates:
+  - simple-footer
+  - detail-content
+  - navigation-header-w-button
+- type: jekyll-pages
+  label: JK_Pages
+  create: all
+  match: "**/*"
+  templates:
+  - simple-footer
+  - detail-content
+  - navigation-header-w-button
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
