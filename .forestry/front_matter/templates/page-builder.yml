@@ -33,5 +33,6 @@ fields:
   - simple-footer
   - 4-column-footer
 pages:
+- _posts/first-post.md
 - main.md
 - index.md
